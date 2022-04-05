@@ -4,26 +4,18 @@ title: About
 permalink: /about/
 ---
 
-[Reverie](https://github.com/amitmerchant1990/reverie) is a Jekyll theme which is simple and opinionated. It's actually a fork of [jekyll-now](https://github.com/barryclark/jekyll-now) with some additional features and personal touches which I've implemented to suit my needs for [my blog](https://www.amitmerchant.com).
+DroneUni is a place for active players of the game. 
 
-This is a plug-and-play Jekyll theme which you can use on GitHub Pages without even setting up a local environment.
+The site has a wiki, which is a collection of information about the game, as well as a history log.  
+You can find out all kinds of things about Droneboi on the wiki, like how to play, who's who in the game, and what different blocks do.  
+If you're looking for somewhere to learn more about Droneboi, this is the place.  
 
-## Features
+---
 
-- Command-line free fork-first workflow, using GitHub.com to create, customize and post to your blog
-- Fully responsive and mobile optimized base theme
-- Sass/Coffeescript support using Jekyll 2.0
-- Free hosting on your GitHub Pages user site
-- All the SEO goodies comes in-built
-- Markdown blogging
-- Syntax highlighting using Pygments
-    - [Dracula syntax theme](https://draculatheme.com/) included
-- Disqus commenting
-- Google Analytics integration
-- Fuzzy search across blog posts
-- Pagination of posts works out-of-the-box.
-- Categorize posts out-of-the box
-- RSS Feed
-- In-built sitemap
+[Join the Official Droneboi Discord (13+)](https://discord.gg/bmfH8xTRjk)  
+[Join the DroneUni Discord Server (13+)](https://discord.gg/fSC9CWBQwg)
 
-Learn more about it [here](https://github.com/amitmerchant1990/reverie) on how to get started.
+**Download and play Droneboi**
+<a style="width:auto; height:80px;" href='https://play.google.com/store/apps/details?id=com.ryzenet.droneboi&utm_source=droneuni&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>
+<a href="https://apps.apple.com/us/app/droneboi-space-sandbox/id1565410295?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 249px; height: 80px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1620086400&h=adda5bba945f9aba27769e2e5f835bfa" alt="Download on the App Store" style="border-radius: 13px; width: 249px; height: 80px;"></a>
+<iframe src="https://drive.google.com/embeddedfolderview?id=1eNQ2nTufhocZ3fTv7hlFY8KfAlnTU2WF#list" style="width:100%; height:200px; border:0;"></iframe>

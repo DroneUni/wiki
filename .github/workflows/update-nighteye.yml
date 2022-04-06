@@ -19,4 +19,4 @@ jobs:
           timeout: 15000
           data: '{"ac":"a","pl":{"urls":["https://droneuni.cf/all-html-elements/"]}}'
       - name: Show response
-        run: echo ${{ fromJson(steps.myRequest.outputs.response).obj.[0] }}
+        run: echo ${{ fromJson(steps.myRequest.outputs.response).obj[0] }}

@@ -12,7 +12,7 @@ author: DroneUni
 description: A wiki for Droneboi
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://droneuni.cf/images/droneuni.png
+avatar: https://droneuni.cf/images/icons/droneuni.png
 
 #
 # Flags below are optional
@@ -36,6 +36,7 @@ footer-links:
   playconsole:
   playstore: com.ryzenet.droneboi
   discord: bmfH8xTRjk
+  appstore:
 
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts

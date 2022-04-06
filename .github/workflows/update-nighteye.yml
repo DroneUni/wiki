@@ -1,0 +1,9 @@
+name: Update Nighteye CSS
+on:
+  push:
+    paths:
+      - '${{ github.workspace }}/_layouts/all-html-elements.html'
+jobs:
+  Update-Nighteye:
+    runs-on: ubuntu latest
+    steps:

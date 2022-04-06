@@ -5,7 +5,7 @@ on:
     branches:
       - 'master'
     paths:
-      - '${{ github.workspace }}/_layouts/all-html-elements.html'
+      - '_layouts/all-html-elements.html'
 jobs:
   Update-Nighteye:
     runs-on: ubuntu latest

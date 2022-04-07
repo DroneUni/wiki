@@ -18,5 +18,9 @@ jobs:
           method: 'POST'
           timeout: 15000
           data: '{"ac":"a","pl":{"urls":["https://droneuni.cf/all-html-elements/"]}}'
-      - name: Show response
-        run: echo ${{ fromJson(steps.postReqRes.outputs.response).obj[0] }}
+      - name: Overwrite Old CSS File
+        uses: DamianReeves/write-file-action@v1.0
+        with:
+          path: '_sass/_nighteye.scss'
+          contents: '@mixin nighteye { ${{ fromJson(steps.postReqRes.outputs.response).obj[0] }} }'
+          write-mode: overwrite

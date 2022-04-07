@@ -10,6 +10,7 @@ jobs:
   update_nighteye:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v1
       - name: Send POST Request to Nighteye API
         id: postReqRes
         uses: fjogeleit/http-request-action@v1
@@ -18,9 +19,13 @@ jobs:
           method: 'POST'
           timeout: 15000
           data: '{"ac":"a","pl":{"urls":["https://droneuni.cf/all-html-elements/"]}}'
-      - name: Overwrite Old CSS File
-        uses: DamianReeves/write-file-action@v1.0
+      - name: Create Directory
+        run: mkdir directory
+      - name: Cd Directory
+        run: cd directory
+      - name: Write CSS File
+        run: echo '@mixin nighteye { ${{ fromJson(steps.postReqRes.outputs.response).obj[0] }} }' >| '_sass/_nighteye.scss'
+      - name: GitHub Push
+        uses: ad-m/github-push-action@v0.6.0
         with:
-          path: '_sass/_nighteye.scss'
-          contents: '@mixin nighteye { ${{ fromJson(steps.postReqRes.outputs.response).obj[0] }} }'
-          write-mode: overwrite
+          github_token: ${{ secrets.ASAEX10_PAT }}

@@ -8,7 +8,7 @@ on:
       - '/_layouts/all-html-elements.html'
 jobs:
   update_nighteye:
-    runs-on: ubuntu latest
+    runs-on: ubuntu-latest
     steps:
       - name: Send POST Request to Nighteye API
         id: postReqRes

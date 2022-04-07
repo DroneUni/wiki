@@ -5,9 +5,9 @@ on:
     branches:
       - 'master'
     paths:
-      - '_layouts/all-html-elements.html'
+      - '/_layouts/all-html-elements.html'
 jobs:
-  Update-Nighteye:
+  update_nighteye:
     runs-on: ubuntu latest
     steps:
       - name: Send POST Request to Nighteye API
@@ -19,4 +19,4 @@ jobs:
           timeout: 15000
           data: '{"ac":"a","pl":{"urls":["https://droneuni.cf/all-html-elements/"]}}'
       - name: Show response
-        run: echo ${{ fromJson(steps.myRequest.outputs.response).obj[0] }}
+        run: echo ${{ fromJson(steps.postReqRes.outputs.response).obj[0] }}

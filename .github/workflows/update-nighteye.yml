@@ -19,12 +19,10 @@ jobs:
           method: 'POST'
           timeout: 15000
           data: '{"ac":"a","pl":{"urls":["https://droneuni.cf/all-html-elements/"]}}'
-      - name: Create Directory
-        run: mkdir directory
-      - name: Cd Directory
-        run: cd directory
+      - name: Set Variable
+        run: RES='${{ fromJson(steps.postReqRes.outputs.response).obj[0] }}'
       - name: Write CSS File
-        run: echo '@mixin nighteye { ${{ fromJson(steps.postReqRes.outputs.response).obj[0] }} }' >| '_sass/_nighteye.scss'
+        run: echo '@mixin nighteye { $RES }' >| '_sass/_nighteye.scss'
       - name: GitHub Push
         uses: ad-m/github-push-action@v0.6.0
         with:

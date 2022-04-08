@@ -16,11 +16,9 @@
     <link rel="manifest" href="{{ site.baseurl }}/assets/manifest.json">
     
     <style>
-      #main {
-        background-image: url("{{ site.baseurl }}/images/404.svg");
-        background-position: 10% 10%;
-        background-repeat: space;
-        background-size: cover;
+      #svgobj {
+        width: 100%;
+        height: auto;
       }
     </style>
     
@@ -54,6 +52,7 @@
       <div class="wrapper-main">
         <div id="main" role="main" class="container">
           {{ content }}
+          <object id="svgobj" data="{{ site.baseurl }}/images/404.svg" type="image/svg+xml"></object>
         </div>
       </div>
 

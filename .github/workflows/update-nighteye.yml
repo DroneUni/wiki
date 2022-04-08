@@ -5,7 +5,7 @@ on:
     branches:
       - 'master'
     paths:
-      - '/_layouts/all-html-elements.html'
+      - '_layouts/all-html-elements.html'
 jobs:
   update_nighteye:
     runs-on: ubuntu-latest

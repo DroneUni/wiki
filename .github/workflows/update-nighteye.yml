@@ -11,9 +11,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      - name: Setup Python Version
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.10.4
       - name: Run Python
-        run: python "${{ env.GITHUB_WORKSPACE }}/_py/update-nighteye.py"
-        shell: sh
+        run: python _py/update-nighteye.py
       - name: Commit & Push
         run: |
           git config user.name github-actions

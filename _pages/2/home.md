@@ -1,3 +1,9 @@
+---
+layout: page
+title: Droneboi 2
+permalink: /2/home
+---
+
 ## About Droneboi 2
 >  The sequel of the open-world sandbox space drone constructor and combat game for mobile, Droneboi 2!
 The game is currently in open beta.

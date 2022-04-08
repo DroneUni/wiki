@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Droneboi
-permalink: /1/home/
+permalink: /1/home
 ---
 
 ## About Droneboi
@@ -14,11 +14,13 @@ permalink: /1/home/
 > FIGHT using numerous unique weapons & explosives and annihilate the others.
 >
 > PLAY with your friends or randoms in online multiplayer and conquer the solar system.
+
 ---
 
 [Join the Official Droneboi Discord (13+)](https://discord.gg/bmfH8xTRjk)  
 
 ---
+
 **Download and play Droneboi**
 
 <a style="display: block;overflow: hidden; width:auto; height:110px;" href='https://play.google.com/store/apps/details?id=com.ryzenet.droneboi&utm_source=droneuni&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img style="width:auto; height:110px; position: relative; left: -13px;" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>

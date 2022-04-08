@@ -11,10 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Clone Repo
-        run: git clone https://github.com/Dronecademy/wiki
       - name: Run Python
-        run: python "${{ env.github_workspace }}/.github/workflows/update-nighteye.py"
+        run: python "${{ env.GITHUB_WORKSPACE }}/.github/workflows/update-nighteye.py"
         shell: sh
       - name: Commit & Push
         run: |

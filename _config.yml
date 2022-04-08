@@ -107,7 +107,10 @@ jekyll-spaceship:
       - iframe:
           props:
             style:
-              background-color: initial
+              background-color: "#ffffff"
+              outline: none
+              border-color: "#dcddff"
+              box-shadow: "0 0 10px #dddeff"
             
 
 # Exclude these files from your production _site

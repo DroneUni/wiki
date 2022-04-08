@@ -11,6 +11,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      - name: Clone Repo
+        run: git clone https://github.com/Dronecademy/wiki
       - name: Run Python
         run: python "${{ env.github_workspace }}/.github/workflows/update-nighteye.py"
         shell: sh
+      - name: Commit & Push
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "Generated nighteye CSS"
+          git push

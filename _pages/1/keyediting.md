@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Keyediting
+permalink: /1/keyediting
 ---
 
 # Specifications

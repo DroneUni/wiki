@@ -66,14 +66,18 @@ Then all the sections after that are blocks, step 1: dissect a block
    Red: 4
    Green: 5
    Yellow: 6
-   Gift: 7
+   Red Gift: 7
    Grey: 8
    Pink Swirl: 9
    Yellow&Black Stripes: 10
    Greenish Yellow: 11
-   Faded Pink: 12
+   Faded Red: 12
    Brown Wood: 13
    White Crate: 14 
+   Purple: 15
+   Pink: 16
+   Green Gift: 17
+   Snowman: 18
    ```
 7. Thruster input direction, normally 0.  <a name="_d_og_block-input_direction"></a><br>
    Auto=0,Up=1,Down=2,Left=3,Right=4

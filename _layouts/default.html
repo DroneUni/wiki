@@ -52,9 +52,17 @@
           <footer class="footer">
             {% include svg-icons.html %}
             <br>
-            <p>App Store® is a trademark of Apple Inc.</p>
-            <p>Google Play and the Google Play logo are trademarks of Google LLC.</p>
-            <p>Google Drive is a trademark of Google Inc. Use of this trademark is subject to Google Permissions.</p>
+            <p>last updated: {{ site.time }}</p>
+            <br>
+            <details>
+              <summary>
+                Legal disclaimers
+                <spam class="icon">⚖️</span>
+              </summary>
+              <p>App Store® is a trademark of Apple Inc.</p>
+              <p>Google Play and the Google Play logo are trademarks of Google LLC.</p>
+              <p>Google Drive is a trademark of Google Inc. Use of this trademark is subject to Google Permissions.</p>
+            </details>
           </footer>
         </div>
       </div>

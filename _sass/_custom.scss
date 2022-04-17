@@ -4,3 +4,21 @@ iframe {
   border-color: #dcddff;
   box-shadow: 0 0 10px #dddeff; 
 }
+
+footer p {
+	display: inline-block;
+	margin: 0 20px;
+	text-align: center;
+	font-size: 10px;
+	width: 200px;
+	height: auto;
+	vertical-align: middle;
+}
+
+#last-updated {
+  font-size: 14px;
+}
+
+#disclaimer {
+  font-size: 10px;
+}

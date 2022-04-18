@@ -4,10 +4,6 @@ title: Droneboi
 permalink: /1/home
 ---
 
-* Table of Contents <newline> {:toc}
-
----
-
 ## About Droneboi
 > Welcome to the Open-world sandbox space drone constructor and combat game for mobile!
 >
@@ -21,13 +17,12 @@ permalink: /1/home
 
 ---
   
-
 ## Wiki
-### Blocks
-### Keyediting
-* [Keyediting documentation](/1/keyediting)
-### Drones
-### Ores
+* ### Blocks
+* ### Keyediting
+  - [Keyediting documentation](/1/keyediting)
+* ### Drones
+* ### Ores
   
 ---
 

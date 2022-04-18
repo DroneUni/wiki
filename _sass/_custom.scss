@@ -27,3 +27,7 @@ footer p {
 h3,h4,h5,h6 {
 	text-align: left !important;
 }
+
+sub,sup,small {
+  font-size: calc(100%/1.3);
+}

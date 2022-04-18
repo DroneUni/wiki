@@ -17,7 +17,7 @@ permalink: /1/home
 
 ---
 
-<dib id="toc">
+<div id="toc" markdown="1">
 ## Wiki
 * ### Blocks
 * ### Keyediting

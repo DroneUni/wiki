@@ -94,9 +94,11 @@ Then all the sections after that are blocks, step 1: dissect a block
     * base64X.org
       - Encode - https://www.base64encode.org
       - Decode - https://www.base64decode.org
+
 [^2]:
     The spawn is offset by the spawn offset, example:
     * The spawnpoint is at 200~300, with a spawn offset of `10~100` (reversed[^3]), you will spawn at `190~200`
+
 [^3]: 
     The spawn offset is reversed (multiplied by -1), examples:
     * `100~400` spawns you at around `-100~-400`

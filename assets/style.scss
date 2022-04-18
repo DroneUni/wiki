@@ -8,6 +8,7 @@
 @import "reset";
 @import "variables";
 @import "nighteye";
+@import "nighteye2";
 
 // Syntax highlighting @import is at the bottom of this file
 
@@ -1140,6 +1141,7 @@ Modules - reusable parts of our design
 
 @media (prefers-color-scheme: dark) {
   @include nighteye;
+	@include nighteye2;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS

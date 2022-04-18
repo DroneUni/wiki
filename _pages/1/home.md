@@ -16,13 +16,15 @@ permalink: /1/home
 > PLAY with your friends or randoms in online multiplayer and conquer the solar system.
 
 ---
-  
+
+<dib id="toc">
 ## Wiki
 * ### Blocks
 * ### Keyediting
   - [Keyediting documentation](/1/keyediting)
 * ### Drones
 * ### Ores
+</div>
   
 ---
 

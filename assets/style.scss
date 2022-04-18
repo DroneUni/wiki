@@ -1141,7 +1141,7 @@ Modules - reusable parts of our design
 
 @media (prefers-color-scheme: dark) {
   @include nighteye;
-	@include nighteye2;
+  @include nighteye2 !important;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS

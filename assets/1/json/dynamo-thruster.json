@@ -1,0 +1,1 @@
+{"internalName":"dynamoThruster","prefab":{"m_FileID":3090,"m_PathID":0},"description":"Type of thruster that generates electricity, using fuel.","category":1,"manufacterer":2,"integrity":15.0,"mass":3.0,"price":90,"startingStock":0,"defaultPaint":{"m_FileID":3056,"m_PathID":0},"scrapMachineMask":{"m_FileID":3092,"m_PathID":0},"stock":100000}

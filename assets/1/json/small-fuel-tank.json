@@ -1,0 +1,1 @@
+{"internalName":"fuelTankSmall","prefab":{"m_FileID":3114,"m_PathID":0},"description":"Contains 20L of fuel. Can be refueled by docking at a fuel container.","category":2,"manufacterer":0,"integrity":10.0,"mass":2.0,"price":60,"startingStock":2,"defaultPaint":{"m_FileID":3044,"m_PathID":0},"scrapMachineMask":{"m_FileID":0,"m_PathID":0},"stock":100000}

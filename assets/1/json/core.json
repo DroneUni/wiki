@@ -1,0 +1,1 @@
+{"internalName":"core","prefab":{"m_FileID":3104,"m_PathID":0},"description":"The main control module of your vehicle. If it is destroyed, your entire vehicle is disabled. ","category":0,"manufacterer":0,"integrity":20.0,"mass":2.0,"price":50,"startingStock":1,"defaultPaint":{"m_FileID":0,"m_PathID":0},"scrapMachineMask":{"m_FileID":0,"m_PathID":0},"stock":100000}

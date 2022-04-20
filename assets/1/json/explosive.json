@@ -1,0 +1,1 @@
+{"internalName":"explosive","prefab":{"m_FileID":2968,"m_PathID":0},"description":"Explodes on impact, dealing damage to nearby blocks.","category":3,"manufacterer":1,"integrity":1.0,"mass":1.0,"price":60,"startingStock":0,"defaultPaint":{"m_FileID":0,"m_PathID":0},"scrapMachineMask":{"m_FileID":0,"m_PathID":0},"stock":100000}

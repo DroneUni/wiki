@@ -1,0 +1,1 @@
+{"internalName":"crateMedium","prefab":{"m_FileID":3010,"m_PathID":0},"description":"Stronger, metal crate that can store 25 items. When destroyed, the cargo is lost.","category":2,"manufacterer":0,"integrity":40.0,"mass":8.0,"price":210,"startingStock":0,"defaultPaint":{"m_FileID":2938,"m_PathID":0},"scrapMachineMask":{"m_FileID":0,"m_PathID":0},"stock":100000}

@@ -1,0 +1,1 @@
+{"internalName":"structureBlock","prefab":{"m_FileID":3058,"m_PathID":0},"description":"Structural piece that can attach diagonally and be placed underneath thrusters.","category":0,"manufacterer":0,"integrity":5.0,"mass":1.0,"price":50,"startingStock":1,"defaultPaint":{"m_FileID":0,"m_PathID":0},"scrapMachineMask":{"m_FileID":3060,"m_PathID":0},"stock":100000}

@@ -1,0 +1,1 @@
+{"internalName":"cameraBlock","prefab":{"m_FileID":2994,"m_PathID":0},"description":"Click to center your camera on it. Has a max range of 60 meters before losing signal.","category":5,"manufacterer":0,"integrity":20.0,"mass":1.0,"price":100,"startingStock":0,"defaultPaint":{"m_FileID":0,"m_PathID":0},"scrapMachineMask":{"m_FileID":2916,"m_PathID":0},"stock":100000}

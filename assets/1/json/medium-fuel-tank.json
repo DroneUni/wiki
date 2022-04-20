@@ -1,0 +1,1 @@
+{"internalName":"fuelTankMedium","prefab":{"m_FileID":3078,"m_PathID":0},"description":"Contains 100L of fuel. Can be refueled by docking at a fuel container.","category":2,"manufacterer":0,"integrity":40.0,"mass":8.0,"price":180,"startingStock":0,"defaultPaint":{"m_FileID":2928,"m_PathID":0},"scrapMachineMask":{"m_FileID":0,"m_PathID":0},"stock":100000}

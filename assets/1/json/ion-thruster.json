@@ -1,0 +1,1 @@
+{"internalName":"ionThruster","prefab":{"m_FileID":3162,"m_PathID":0},"description":"Creates thrust by accelerating ions using electricity. Low output power but high efficiency.","category":1,"manufacterer":3,"integrity":15.0,"mass":3.0,"price":90,"startingStock":0,"defaultPaint":{"m_FileID":2944,"m_PathID":0},"scrapMachineMask":{"m_FileID":2986,"m_PathID":0},"stock":100000}

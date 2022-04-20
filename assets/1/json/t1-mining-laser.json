@@ -1,0 +1,1 @@
+{"internalName":"miningLaser1","prefab":{"m_FileID":3110,"m_PathID":0},"description":"Cuts through asteroids with a laser to gather minerals.","category":4,"manufacterer":4,"integrity":10.0,"mass":3.0,"price":200,"startingStock":1,"defaultPaint":{"m_FileID":3016,"m_PathID":0},"scrapMachineMask":{"m_FileID":3086,"m_PathID":0},"stock":100000}

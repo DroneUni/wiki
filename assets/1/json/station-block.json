@@ -1,1 +1,1 @@
-{"internalName":"stationBlock","prefab":{"m_FileID":3040,"m_PathID":0},"description":"Big block meant for building stations.","category":0,"manufacterer":0,"integrity":80.0,"mass":4.0,"price":150,"startingStock":0,"defaultPaint":{"m_FileID":0,"m_PathID":0},"scrapMachineMask":{"m_FileID":0,"m_PathID":0},"stock":100000}
+{"category":"basic","defaultPaint":-1,"description":"Big block meant for building stations.","integrity":80.0,"mass":4.0,"price":150,"startingStock":0,"manufacterer":"DIT"}

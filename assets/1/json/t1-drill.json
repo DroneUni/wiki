@@ -1,1 +1,1 @@
-{"internalName":"drill1","prefab":{"m_FileID":3066,"m_PathID":0},"description":"Drills through asteroids to gather minerals.","category":4,"manufacterer":0,"integrity":10.0,"mass":2.0,"price":100,"startingStock":1,"defaultPaint":{"m_FileID":3016,"m_PathID":0},"scrapMachineMask":{"m_FileID":3020,"m_PathID":0},"stock":100000}
+{"category":"mining","defaultPaint":3,"description":"Drills through asteroids to gather minerals.","integrity":10.0,"mass":2.0,"price":100,"startingStock":1,"manufacterer":"DIT"}

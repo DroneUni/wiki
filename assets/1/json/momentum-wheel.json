@@ -1,1 +1,1 @@
-{"internalName":"momentumWheel","prefab":{"m_FileID":3062,"m_PathID":0},"description":"Creates torque using electricity, thus turning your drone.","category":1,"manufacterer":0,"integrity":10.0,"mass":2.0,"price":50,"startingStock":1,"defaultPaint":{"m_FileID":2960,"m_PathID":0},"scrapMachineMask":{"m_FileID":3064,"m_PathID":0},"stock":100000}
+{"category":"movement","defaultPaint":6,"description":"Creates torque using electricity, thus turning your drone.","integrity":10.0,"mass":2.0,"price":50,"startingStock":1,"manufacterer":"DIT"}

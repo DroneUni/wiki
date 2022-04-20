@@ -1,1 +1,1 @@
-{"internalName":"batteryMedium","prefab":{"m_FileID":3154,"m_PathID":0},"description":"Contains 100 units of electricity. Can be recharged using solar panels.","category":2,"manufacterer":0,"integrity":40.0,"mass":12.0,"price":180,"startingStock":0,"defaultPaint":{"m_FileID":2946,"m_PathID":0},"scrapMachineMask":{"m_FileID":0,"m_PathID":0},"stock":100000}
+{"category":"container","defaultPaint":1,"description":"Contains 100 units of electricity. Can be recharged using solar panels.","integrity":40.0,"mass":12.0,"price":180,"startingStock":0,"manufacterer":"DIT"}

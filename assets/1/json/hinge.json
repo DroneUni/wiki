@@ -1,1 +1,1 @@
-{"internalName":"hinge","prefab":{"m_FileID":3122,"m_PathID":0},"description":"Connected blocks can freely hinge arround it in 360 degrees.","category":5,"manufacterer":0,"integrity":20.0,"mass":1.0,"price":80,"startingStock":1,"defaultPaint":{"m_FileID":0,"m_PathID":0},"scrapMachineMask":{"m_FileID":3124,"m_PathID":0},"stock":100000}
+{"category":"gizmo","defaultPaint":-1,"description":"Connected blocks can freely hinge arround it in 360 degrees.","integrity":20.0,"mass":1.0,"price":80,"startingStock":1,"manufacterer":"DIT"}

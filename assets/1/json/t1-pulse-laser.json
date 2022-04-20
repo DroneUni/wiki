@@ -1,1 +1,1 @@
-{"internalName":"pulseLaser1","prefab":{"m_FileID":3132,"m_PathID":0},"description":"Fires a laser beam dealing instant damage.","category":3,"manufacterer":0,"integrity":10.0,"mass":1.0,"price":110,"startingStock":1,"defaultPaint":{"m_FileID":0,"m_PathID":0},"scrapMachineMask":{"m_FileID":3076,"m_PathID":0},"stock":100000}
+{"category":"weapon","defaultPaint":-1,"description":"Fires a laser beam dealing instant damage.","integrity":10.0,"mass":1.0,"price":110,"startingStock":1,"manufacterer":"DIT"}

@@ -1,1 +1,1 @@
-{"internalName":"rocket1","prefab":{"m_FileID":3130,"m_PathID":0},"description":"Launches a rocket-propelled grenade dealing splash damage.","category":3,"manufacterer":0,"integrity":10.0,"mass":1.0,"price":110,"startingStock":1,"defaultPaint":{"m_FileID":0,"m_PathID":0},"scrapMachineMask":{"m_FileID":3096,"m_PathID":0},"stock":100000}
+{"category":"weapon","defaultPaint":-1,"description":"Launches a rocket-propelled grenade dealing splash damage.","integrity":10.0,"mass":1.0,"price":110,"startingStock":1,"manufacterer":"DIT"}

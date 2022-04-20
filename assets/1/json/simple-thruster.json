@@ -1,1 +1,1 @@
-{"internalName":"simpleThruster","prefab":{"m_FileID":3128,"m_PathID":0},"description":"Produces thrust using fuel.","category":1,"manufacterer":0,"integrity":10.0,"mass":2.0,"price":50,"startingStock":2,"defaultPaint":{"m_FileID":2960,"m_PathID":0},"scrapMachineMask":{"m_FileID":2940,"m_PathID":0},"stock":100000}
+{"category":"movement","defaultPaint":6,"description":"Produces thrust using fuel.","integrity":10.0,"mass":2.0,"price":50,"startingStock":2,"manufacterer":"DIT"}

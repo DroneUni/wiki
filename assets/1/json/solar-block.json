@@ -1,1 +1,1 @@
-{"internalName":"solarBlock","prefab":{"m_FileID":3082,"m_PathID":0},"description":"A compact, more durable solar panel.","category":5,"manufacterer":3,"integrity":10.0,"mass":1.0,"price":70,"startingStock":0,"defaultPaint":{"m_FileID":0,"m_PathID":0},"scrapMachineMask":{"m_FileID":0,"m_PathID":0},"stock":0}
+{"category":"gizmo","defaultPaint":-1,"description":"A compact, more durable solar panel.","integrity":10.0,"mass":1.0,"price":70,"startingStock":0,"manufacterer":"FocusWorks"}

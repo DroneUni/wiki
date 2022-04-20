@@ -1,1 +1,1 @@
-{"internalName":"batterySmall","prefab":{"m_FileID":3144,"m_PathID":0},"description":"Contains 20 units of electricity. Can be recharged using solar panels.","category":2,"manufacterer":0,"integrity":10.0,"mass":3.0,"price":60,"startingStock":2,"defaultPaint":{"m_FileID":3056,"m_PathID":0},"scrapMachineMask":{"m_FileID":0,"m_PathID":0},"stock":100000}
+{"category":"container","defaultPaint":8,"description":"Contains 20 units of electricity. Can be recharged using solar panels.","integrity":10.0,"mass":3.0,"price":60,"startingStock":2,"manufacterer":"DIT"}

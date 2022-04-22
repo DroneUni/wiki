@@ -3,8 +3,6 @@ layout: page
 title: Automatic Spawn Offset
 permalink: /1/keyediting/spawnoffset
 ---
-<script type="module" src="{{ site.url }}/assets/keyediting/spawnOffset.mjs"></script>
-
 **Work in progress**
 
 <textarea placeholder="Paste your key here" class="center" id="main-textarea">
@@ -16,3 +14,5 @@ permalink: /1/keyediting/spawnoffset
 * rotation: <input type="number" min="0" max="355" value="0" id="r"> <i id="rotation-indicator" class="fa-solid fa-arrow-up"></i>
 
 <button class="center" id="btn">Generate and copy to clipboard</button>
+
+<script type="module" src="{{ site.url }}/assets/keyediting/spawnOffset.mjs"></script>

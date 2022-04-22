@@ -19,12 +19,12 @@ btn.addEventListener("click",()=>{
         Toastify({
             text: "Result copied to clipboard",
             duration: 2500,
-            close: true,
+            close: false,
             gravity: "top", // `top` or `bottom`
             position: "left", // `left`, `center` or `right`
             stopOnFocus: true, // Prevents dismissing of toast on hover
             style: {
-                backgroundColor: "#161b22",
+                background: "#2e2e38",
                 outline: "none",
                 borderColor: "#121212",
                 boxShadow: "0 0 10px #4e9f3d"
@@ -33,8 +33,8 @@ btn.addEventListener("click",()=>{
             }).showToast();
     });
 });
-rInput.addEventListener("input", () => {
-    rotationIndicator.style.transform = `rotate(${this.value}deg)`;
+rInput.addEventListener("input", (e) => {
+    rotationIndicator.style.transform = `rotate(${e.target.value}deg)`;
 });
 
 console.log("2");

@@ -14,4 +14,4 @@ permalink: /1/keyediting/spawnoffset
 ## Set the offset coordinates
 * x: <input type="number" min="-1000000" max="1000000" id="x">
 * y: <input type="number" min="-1000000" max="1000000" id="y">
-* rotation: <input type="number" min="0" max="355" id="r"> <i class="fa-solid fa-arrow-up"></i>
+* rotation: <input type="number" min="0" max="355" id="r"> <i id="rotation-indicator" class="fa-solid fa-arrow-up"></i>

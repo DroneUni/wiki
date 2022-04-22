@@ -23,7 +23,7 @@ export class Position {
 	}
 }
 
-class Block {
+export class Block {
 	name;
 	position;
 	firingGroup = 0; // 0: primary | 1: secondary
@@ -69,7 +69,7 @@ class Block {
 	}
 }
 
-class Vehicle {
+export class Vehicle {
 	position;
 	blocks = [];
 	get blockCount() {return blocks.length;}; 

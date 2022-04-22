@@ -3,7 +3,6 @@ layout: page
 title: Spawn Offset
 permalink: /1/keyediting/spawnoffset
 ---
-<link rel="stylesheet" type="text/css" href="{{ site.url }}/assets/css/">
 
 **Work in progress**
 

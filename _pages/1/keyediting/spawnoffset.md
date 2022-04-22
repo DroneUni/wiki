@@ -7,7 +7,7 @@ permalink: /1/keyediting/spawnoffset
 **Work in progress**
 
 ## Put your key here
-<textarea id="main-textarea">
+<textarea class="center" id="main-textarea">
 </textarea>
 
 ## Set the offset coordinates

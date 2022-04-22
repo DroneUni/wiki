@@ -37,6 +37,9 @@ sub,sup,small {
 }
 
 //textarea
+#main-textarea {
+  resize: none;
+}
 @media (orientation: portrait) {
   #main-textarea {
     width: 100%;

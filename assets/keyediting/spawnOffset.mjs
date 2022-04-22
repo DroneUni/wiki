@@ -1,7 +1,7 @@
 import Toastify from '/assets/toastify.mjs';
 import { Vehicle , Position } from "./converter.mjs";
 
-window.addEventListener("DOMContentLoaded",()=>{
+window.addEventListener("load",()=>{
     const btn = document.getElementById("btn");
     const keyInput = document.getElementById("main-textarea");
     const xInput = document.getElementById("x");

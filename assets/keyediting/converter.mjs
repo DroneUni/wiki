@@ -1,5 +1,3 @@
-import Base64 from 'base64.mjs';
-
 export class Position {
 	x=0;
 	y=0;
@@ -45,7 +43,7 @@ export class Block {
 	}
 	static fromKey(str) {
 		const block = new Block();
-		const v = blockStr.split(';');
+		const v = str.split(';');
 				
 		block.name = v[0];
 		block.position = Position.fromArray(v.slice(1,3));
@@ -53,7 +51,7 @@ export class Block {
 
 		// Control groups
 		const cgStr = v[4];
-		if (cgStr==="-1") {
+		if (cgStr!=="-1") {
 			if (cgStr.includes("0")) block.controlGroups.push(0);
 			if (cgStr.includes("1")) block.controlGroups.push(1);
 			if (cgStr.includes("2")) block.controlGroups.push(2);
@@ -72,10 +70,10 @@ export class Block {
 export class Vehicle {
 	position;
 	blocks = [];
-	get blockCount() {return blocks.length;}; 
+	get blockCount() {return this.blocks.length;}; 
 	constructor(key) {
 		const obj = {};
-		const decoded = Base64.decode(key);
+		const decoded = atob(key);
 
 		const sections = decoded.split('|');
 
@@ -83,13 +81,14 @@ export class Vehicle {
 		{
 			const section = sections[0];
 			const parts = section.split(';');
-			this.pos = Position.fromArray(parts.slice(1,3));
+			this.position = Position.fromArray(parts.slice(1,3));
 		}
 		
 		// Blocks
 		{
 			const section = sections[2];
-			const blocks = section.split(':').slice(0,blockCount-1);
+			const array = section.split(':');
+			const blocks = array.slice(0,array.length-1);
 			blocks.forEach(blockStr=>{
 				this.blocks.push(Block.fromKey(blockStr));
 			});
@@ -100,6 +99,6 @@ export class Vehicle {
 		this.blocks.forEach(block=>{
 			blocksStr += block.toString()+':';
 		})
-		return `PlayerVehicle;${this.position.toString()}|${this.blockCount}|${blocksStr}`;
+		return btoa(`PlayerVehicle;${this.position.toString()}|${this.blockCount}|${blocksStr}`);
 	}
 }

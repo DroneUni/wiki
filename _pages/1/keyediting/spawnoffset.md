@@ -3,6 +3,7 @@ layout: page
 title: Automatic Spawn Offset
 permalink: /1/keyediting/spawnoffset
 ---
+<script type="module" src="{{ site.url }}/assets/keyediting/spawnOffset.mjs"></script>
 
 **Work in progress**
 

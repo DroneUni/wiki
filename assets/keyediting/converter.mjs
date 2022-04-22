@@ -8,7 +8,7 @@ export class Position {
 		this.r=r;
 	}
 	toString() {
-		return `${x}~${y}~;${r}`;
+		return `${this.x}~${this.y};${this.r}`;
 	}
 	static fromString(str) {
 		const a = str.split(';');
@@ -32,14 +32,14 @@ export class Block {
 	constructor() {}
 	toString() {
 		// Control groups
-		const cgStr = "";
-		if (controlGroups.length!==0) {
+		let cgStr = "";
+		if (this.controlGroups.length!==0) {
 			this.controlGroups.forEach(cg=>{
 				cgStr+=cg.toString();
 			});	
 		} else cgStr="-1";
 		
-		return `${this.name};${this.position.toString()};${cgStr};${this.paint.toString()};${this.thrusterInDir.toString()};${flip?"1":"0"}`;
+		return `${this.name};${this.position.toString()};${this.firingGroup.toString()};${cgStr};${this.paint.toString()};${this.thrusterInDir.toString()};${this.flip?"1":"0"}`;
 	}
 	static fromKey(str) {
 		const block = new Block();
@@ -95,7 +95,7 @@ export class Vehicle {
 		}
 	}
 	toString() {
-		const blocksStr = "";
+		let blocksStr = "";
 		this.blocks.forEach(block=>{
 			blocksStr += block.toString()+':';
 		})

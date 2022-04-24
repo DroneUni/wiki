@@ -10,6 +10,14 @@ The game is currently in open beta.
 
 ---
 
+<div id="toc" markdown="1">
+## Wiki
+* ### Blocks
+    - [Core](./blocks/core)
+</div>
+
+---
+
 [Join the Official Droneboi Discord (13+)](https://discord.gg/bmfH8xTRjk)  
 
 ---

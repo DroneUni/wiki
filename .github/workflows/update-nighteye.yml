@@ -6,7 +6,7 @@ on:
       - 'master'
     paths:
       - '_layouts/all-html-elements.html'
-      - '_sass/**'
+      - '_sass/custom.scss'
 jobs:
   update_nighteye:
     runs-on: ubuntu-latest

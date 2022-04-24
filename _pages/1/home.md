@@ -17,7 +17,19 @@ permalink: /1/home
 
 ---
 
+<div id="toc" markdown="1">
+## Wiki
+* ### Blocks
+* ### Keyediting
+  - [Keyediting documentation](/1/keyediting)
+* ### Drones
+* ### Ores
+</div>
+  
+---
+
 [Join the Official Droneboi Discord (13+)](https://discord.gg/bmfH8xTRjk)  
+[Join the DroneUni Discord Server (13+)](https://discord.gg/fSC9CWBQwg)
 
 ---
 

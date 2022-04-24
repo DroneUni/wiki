@@ -8,6 +8,8 @@
 @import "reset";
 @import "variables";
 @import "nighteye";
+@import "nighteye2";
+@import "toastify";
 
 // Syntax highlighting @import is at the bottom of this file
 
@@ -423,17 +425,6 @@ nav {
 footer {
   padding: 20px 0;
   text-align: center;
-}
-
-footer p {
-	display: inline-block;
-	margin: 0 20px;
-	text-align: center;
-	font-size: 10px;
-	width: 200px;
-	height: auto;
-	vertical-align: middle;
-
 }
 
 body:after {
@@ -1151,6 +1142,7 @@ Modules - reusable parts of our design
 
 @media (prefers-color-scheme: dark) {
   @include nighteye;
+  @include nighteye2;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS

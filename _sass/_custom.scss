@@ -52,3 +52,24 @@ sub,sup,small {
     height: 20vh;
   }
 }
+
+//floats
+.float-left {
+  float: left;
+  margin-right: 10px;
+}
+.float-right {
+  float: right;
+  margin-left: 10px;
+}
+
+//canvas 
+.block-canvas {
+  width: 100%;
+  height: auto;
+  margin: auto auto; 
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -webkit-crisp-edges;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}

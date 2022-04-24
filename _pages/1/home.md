@@ -21,7 +21,7 @@ permalink: /1/home
 ## Wiki
 * ### Blocks
 * ### Keyediting
-  - [Keyediting documentation](/1/keyediting)
+  - [Keyediting documentation](./keyediting)
 * ### Drones
 * ### Ores
 </div>

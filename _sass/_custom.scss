@@ -4,3 +4,51 @@ iframe {
   border-color: #dcddff;
   box-shadow: 0 0 10px #dddeff; 
 }
+
+footer p {
+	display: inline-block;
+	margin: 0 20px;
+	text-align: center;
+	font-size: 10px;
+	width: 200px;
+	height: auto;
+	vertical-align: middle;
+}
+
+#last-updated {
+  font-size: 12px;
+  width: 450px;
+}
+
+#disclaimer {
+  font-size: 10px;
+}
+
+h3,h4,h5,h6 {
+	text-align: left !important;
+}
+
+sub,sup,small {
+  font-size: calc(100%/1.3);
+}
+
+.center {
+  margin: auto auto;
+}
+
+//textarea
+#main-textarea {
+  resize: none;
+}
+@media (orientation: portrait) {
+  #main-textarea {
+    width: 100%;
+    height: 25vh;
+  }
+}
+@media (orientation: landscape) {
+  #main-textarea {
+    width: 100%;
+    height: 20vh;
+  }
+}

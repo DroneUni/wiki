@@ -23,22 +23,22 @@
     {% endif %}
     {% if layout.custom_js %}
       {% for js_file in layout.custom_js %}
-        <script type="text/javascript" src="{{ site.baseurl }}/{{ js_file }}"></script>
+        <script type="module" src="{{ site.baseurl }}{{ js_file }}"></script>
       {% endfor %}
     {% endif %}
     {% if page.custom_js %}
       {% for js_file in page.custom_js %}
-        <script type="text/javascript" src="{{ site.baseurl }}/{{ js_file }}"></script>
+        <script type="module" src="{{ site.baseurl }}{{ js_file }}"></script>
       {% endfor %}
     {% endif %}
     {% if layout.custom_css %}
       {% for stylesheet in layout.custom_css %}
-      <link rel="stylesheet" href="{{ site.baseurl }}/{{ stylesheet }}">
+      <link rel="stylesheet" href="{{ site.baseurl }}{{ stylesheet }}">
       {% endfor %}
     {% endif %}
     {% if page.custom_css %}
       {% for stylesheet in page.custom_css %}
-      <link rel="stylesheet" href="{{ site.baseurl }}/{{ stylesheet }}">
+      <link rel="stylesheet" href="{{ site.baseurl }}{{ stylesheet }}">
       {% endfor %}
     {% endif %}
     {% if layout.custom_head_tags %}

@@ -46,32 +46,36 @@
 }
 
 // white
-
 .white-btn {
   @extend %btn;
   background-color: #FFFFFF;
   color: #111827;
   text-decoration: none #2c2d2e solid;
 }
-.white-btn:hover {
-  background-color: #e7e7e8;
-}
 .white-btn:focus {
   @extend .white-btn;
+}
+.white-btn:hover {
+  background-color: #e7e7e8;
 }
 
 // default button
 .btn {
   @extend .black-btn;
 }
-.btn:hover {
-  @extend .black-btn, :hover;
-}
 .btn:focus {
   @extend .black-btn, :focus;
 }
+.btn:hover {
+  @extend .black-btn, :hover;
+}
 @media (prefers-color-scheme: dark) {
   .btn {
+    background-color: #FFFFFF;
+    color: #111827;
+    text-decoration: none #c4c7cc solid;
+  }
+  .btn:focus { // same as .btn
     background-color: #FFFFFF;
     color: #111827;
     text-decoration: none #c4c7cc solid;
@@ -80,10 +84,5 @@
     background-color: #e7e7e8;
     color: #111827;
     text-decoration: none #2c2d2e solid;
-  }
-  .btn:focus { // same as .btn
-    background-color: #FFFFFF;
-    color: #111827;
-    text-decoration: none #c4c7cc solid;
   }
 }

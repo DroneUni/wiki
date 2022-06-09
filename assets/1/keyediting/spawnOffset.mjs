@@ -1,6 +1,6 @@
 import Toastify from '/assets/toastify.mjs';
 import { Vehicle , Position } from "./converter.mjs";
-import showError from "/assets/showError.mjs";
+import { showError } from "/assets/showError.mjs";
 
 console.log("1");
 

@@ -9,7 +9,7 @@
   cursor: pointer;
   flex: 0 0 auto;
   font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-  font-size: 1.125rem;
+  font-size: 1.05rem;
   font-weight: 600;
   line-height: 1.5rem;
   padding: .5rem 1rem;
@@ -28,12 +28,6 @@
 .black-btn:hover {
   background-color: #374151;
 }
-  
-.black-btn:focus {
-  box-shadow: none;
-  outline: 2px solid transparent;
-  outline-offset: 2px;
-}
 
 // white
 
@@ -46,10 +40,6 @@
   
 .white-btn:hover {
   background-color: #e7e7e8;
-}
-  
-.white-btn:focus {
-  @extend .black-btn, :focus;
 }
 
 // default button
@@ -73,12 +63,5 @@
   .btn:hover {
     background-color: #e7e7e8;
     color: #111827;
-  }
-  .btn:focus {
-    background-color: #e7e7e8;
-    color: #111827;
-    box-shadow: none;
-    outline: 2px solid transparent;
-    outline-offset: 2px;
   }
 }

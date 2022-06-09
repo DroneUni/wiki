@@ -15,7 +15,7 @@ const rotationIndicator = document.getElementById("rotation-indicator");
 
 pasteBtn.addEventListener("click",()=>{
     navigator.clipboard.readText().then(str=>{
-        keyOutput.textContent = str;
+        keyInput.textContent = str;
         Toastify({
             text: "Key pasted to input",
             duration: 1250,

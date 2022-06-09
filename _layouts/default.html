@@ -15,7 +15,42 @@
     <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/images/icons/favicon.ico">
     <link rel="manifest" href="{{ site.baseurl }}/assets/manifest.json">
     <script defer src="https://use.fontawesome.com/releases/v6.1.1/js/all.js" integrity="sha384-xBXmu0dk1bEoiwd71wOonQLyH+VpgR1XcDH3rtxrLww5ajNTuMvBdL5SOiFZnNdp" crossorigin="anonymous"></script>
-    <script type="module" src="{{ site.baseurl }}/assets/renderBlock.mjs"></script>
+    {% if layout.need_render_blocks %}
+      <script type="module" src="{{ site.baseurl }}/assets/renderBlock.mjs"></script>
+    {% endif %}
+    {% if page.need_render_blocks %}
+      <script type="module" src="{{ site.baseurl }}/assets/renderBlock.mjs"></script>
+    {% endif %}
+    {% if layout.custom_js %}
+      {% for js_file in layout.custom_js %}
+        <script type="text/javascript" src="{{ site.baseurl }}/{{ js_file }}"></script>
+      {% endfor %}
+    {% endif %}
+    {% if page.custom_js %}
+      {% for js_file in page.custom_js %}
+        <script type="text/javascript" src="{{ site.baseurl }}/{{ js_file }}"></script>
+      {% endfor %}
+    {% endif %}
+    {% if layout.custom_css %}
+      {% for stylesheet in layout.custom_css %}
+      <link rel="stylesheet" href="{{ site.baseurl }}/{{ stylesheet }}">
+      {% endfor %}
+    {% endif %}
+    {% if page.custom_css %}
+      {% for stylesheet in page.custom_css %}
+      <link rel="stylesheet" href="{{ site.baseurl }}/{{ stylesheet }}">
+      {% endfor %}
+    {% endif %}
+    {% if layout.custom_head_tags %}
+      {% for stylesheet in layout.custom_head_tags %}
+      {{ custom_head_tags }}
+      {% endfor %}
+    {% endif %}
+    {% if page.custom_head_tags %}
+      {% for stylesheet in page.custom_head_tags %}
+      {{ custom_head_tags }}
+      {% endfor %}
+    {% endif %}
     {% include analytics_head.html %}
   </head>
 

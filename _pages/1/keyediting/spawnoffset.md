@@ -2,6 +2,8 @@
 layout: page
 title: Automatic Spawn Offset
 permalink: /1/keyediting/spawnoffset
+custom_js:
+    - /assets/1/keyediting/spawnOffset.mjs
 ---
 
 <textarea placeholder="Paste your key here" class="center textarea" id="input-textarea">
@@ -18,5 +20,3 @@ permalink: /1/keyediting/spawnoffset
 
 <textarea readonly placeholder="Output" class="center textarea" id="output-textarea">
 </textarea>
-
-<script type="module" src="{{ site.baseurl }}/assets/1/keyediting/spawnOffset.mjs"></script>

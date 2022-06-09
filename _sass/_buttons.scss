@@ -49,7 +49,7 @@
 }
   
 .white-btn:focus {
-  @extend .black-btn:focus;
+  @extend .black-btn, :focus;
 }
 
 // default button
@@ -58,10 +58,10 @@
   @extend .black-btn;
 }
 .btn:hover {
-  @extend .black-btn:hover;
+  @extend .black-btn, :hover;
 }
 .btn:focus {
-  @extend .black-btn:focus;
+  @extend .black-btn, :focus;
 }
 
 @media (prefers-color-scheme: dark) {

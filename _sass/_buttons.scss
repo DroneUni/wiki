@@ -1,11 +1,8 @@
-// black
-
-.black-btn {
-  background-color: #111827;
+// main
+%btn {
   border: 1px solid transparent;
   border-radius: .75rem;
   box-sizing: border-box;
-  color: #FFFFFF;
   cursor: pointer;
   flex: 0 0 auto;
   font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
@@ -14,7 +11,6 @@
   line-height: 1.5rem;
   padding: .5rem 1rem;
   text-align: center;
-  text-decoration: none #6B7280 solid;
   text-decoration-thickness: auto;
   transition-duration: .2s;
   transition-property: background-color,border-color,color,fill,stroke;
@@ -23,27 +19,48 @@
   -webkit-user-select: none;
   touch-action: manipulation;
   width: auto;
+  // color
+  background-color: #111827;
+  color: #FFFFFF;
 }
-  
+%btn:hover {
+  // color
+  background-color: #374151;
+}
+%btn:focus {
+  // use same style
+  @extend %btn;
+}
+
+// black
+.black-btn {
+  @extend %btn;
+  background-color: #111827;
+  color: #FFFFFF;
+}
 .black-btn:hover {
   background-color: #374151;
+}
+.black-btn:focus {
+  @extend .black-btn;
 }
 
 // white
 
 .white-btn {
-  @extend .black-btn;
+  @extend %btn;
   background-color: #FFFFFF;
   color: #111827;
-  text-decoration: none #c4c7cc solid;
+  text-decoration: none #2c2d2e solid;
 }
-  
 .white-btn:hover {
   background-color: #e7e7e8;
 }
+.white-btn:focus {
+  @extend .white-btn;
+}
 
 // default button
-
 .btn {
   @extend .black-btn;
 }
@@ -53,15 +70,20 @@
 .btn:focus {
   @extend .black-btn, :focus;
 }
-
 @media (prefers-color-scheme: dark) {
   .btn {
     background-color: #FFFFFF;
     color: #111827;
     text-decoration: none #c4c7cc solid;
   }
-  .btn:hover {
+  .btn:hover { // different bg color
     background-color: #e7e7e8;
     color: #111827;
+    text-decoration: none #2c2d2e solid;
+  }
+  .btn:focus { // same as .btn
+    background-color: #FFFFFF;
+    color: #111827;
+    text-decoration: none #c4c7cc solid;
   }
 }
